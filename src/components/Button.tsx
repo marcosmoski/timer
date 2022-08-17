@@ -1,9 +1,9 @@
-import {ButtonContainerProps} from './Button.styles';
+import { ButtonContainer, ButtonContainerProps } from './Button.styles'
 
-export function Button ({variant = 'primary'}: ButtonContainerProps) { 
+export function Button({ variant = 'primary' }: ButtonContainerProps) {
   return (
     <>
-      <button className={variant}> Click me </button>
+      <ButtonContainer variant={variant}> Click me </ButtonContainer>
     </>
   )
 }
